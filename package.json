@@ -1,0 +1,20 @@
+{
+	"name": "module-30",
+	"version": "1.0.0",
+	"description": "An all-in-one sink for code from module 30 about data structures, algorithms, algorithm complexity, sorting, optimization, and GraphQL.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "gh-ivan:ivan-developer-01/module-30"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"dependencies": {
+		"typescript": "^6.0.2"
+	}
+}
