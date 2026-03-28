@@ -1,8 +1,8 @@
 export default function bubbleSort<T = any>(array: T[]) {
 	let result = structuredClone(array);
-	let changed!: boolean;
+	let changed: boolean = false;
 	let n = result.length;
-	for (let i = 0; i < result.length; i++) {
+	for (let i = 0; !changed || i < result.length; i++) {
 		for (let j = 0; j < n; j++) {
 			let current = result[j],
 				next = result[j + 1];
@@ -13,7 +13,6 @@ export default function bubbleSort<T = any>(array: T[]) {
 			}
 		}
 
-		if (!changed) break;
 		n--;
 	}
 
